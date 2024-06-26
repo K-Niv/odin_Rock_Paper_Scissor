@@ -1,0 +1,57 @@
+html{
+    background-color: lightpink;
+}
+
+.header{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.choice{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.choices{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.choices button{
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.score-board h3{
+    font-size: 40px;
+}
+
+#resetButton{
+    border-radius: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
